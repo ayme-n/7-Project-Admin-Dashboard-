@@ -7,7 +7,7 @@
 }
 
 .header,.P_divs > div,.A_divs,.T_divs{
-    box-shadow: 5px 10px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 10px 10px -10px rgba(0,0,0, 0.5);
     
     z-index: 1;
 }
@@ -25,6 +25,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 3fr 1.8fr;
+    color:  rgb(19, 38, 18);
     
 }
 
@@ -46,12 +47,13 @@ input{
     height: 26px;
     border-style: none;
     border-radius: 20px;
-    background-color: rgb(192, 205, 216);
+    color: white;
+    background-color:  #AED7AD;
      outline: none;
 }
 
 input:focus{
-    border: rgb(76, 110, 220) solid 0.15rem;
+    border:  #1C371B solid 0.15rem;
 }
 
 .search,.alert:hover{
@@ -86,7 +88,7 @@ button{
     height: 35px;
     border-style: none;
     border-radius: 20px;
-    background-color: rgb(192, 205, 216);
+    background-color: rgb(45, 90, 43);
     color: white;
     margin-left: 20px;
 }
@@ -96,7 +98,7 @@ button{
 
 .sidebar{
     grid-row: 1/3;
-    background-color: #2c8bc6;
+    background-color:  #2D5A2B;
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
@@ -197,8 +199,8 @@ li{
 
 
 .main{
-    background-color: rgb(208, 220, 231);
-
+    background-color:  #D0E8CF;
+    color:  #132612;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 0.5fr 1fr;
@@ -219,6 +221,7 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:20px;
+    
 
 }
 
@@ -235,7 +238,7 @@ li{
     padding: 20px;
     padding-bottom: 10px;
     
-    border-left: 7px solid #3a3a34;
+    border-left: 7px solid  #2D5A2B;
 }
 
 .P_divs .img-group{
